@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Nav/Navbar';
-import Game from './Game/Games';
+import Game from './Game/Game';
 
 import './App.css';
 
