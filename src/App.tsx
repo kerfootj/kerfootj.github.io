@@ -4,16 +4,13 @@ import Game from './Game/Games';
 
 import './App.css';
 
-
-
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <Navbar />
       <Game />
     </div>
-    
   );
-}
+};
 
 export default App;

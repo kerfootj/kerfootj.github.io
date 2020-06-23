@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import useWindowDimensions from './useWindowDimensions';
 
-const Game = () => {
+const Game: React.FC = () => {
   const { height, width } = useWindowDimensions();
 
   return (
@@ -9,6 +9,6 @@ const Game = () => {
       width: {width} ~ height: {height}
     </div>
   );
-}
+};
 
 export default Game;

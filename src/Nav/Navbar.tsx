@@ -11,24 +11,22 @@ const useStyles = makeStyles((theme) => ({
   },
   groupRight: {
     marginLeft: 'auto',
-  }
+  },
 }));
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const classes = useStyles();
-  
+
   return (
     <div className={classes.root}>
       <AppBar position="sticky">
         <Toolbar>
           <Typography variant="h6">Hello</Typography>
-          <div className={classes.groupRight}>
-            There
-          </div>
+          <div className={classes.groupRight}>There</div>
         </Toolbar>
       </AppBar>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;
